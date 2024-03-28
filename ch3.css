@@ -1,0 +1,10 @@
+h2, p, ul, li{
+    border: 1px solid red
+}
+strong, span{
+    border: 1px solid blue
+}
+
+table,th,td,caption {
+    border: 1px solid gray
+}
