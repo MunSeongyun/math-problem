@@ -6,7 +6,7 @@ def GCD(a,b):
         a, b = b, a%b
     return a
 
-def LCD(a,b):
+def LCM(a,b):
     #최소공배수 구하기
     return a*b/GCD(a,b)
 
@@ -78,7 +78,7 @@ def plus():
     answerJ = int(input("분자를 입력하시오:"))
     print()
     # 부동소수점 때문에 계산이 안 될 수도 있어서 분모, 분자를 따로 입력받습니다.
-    am = LCD(m,m1)
+    am = LCM(m,m1)
     if c != 0:
         aj1 = (am/m)*j - (am/m1)*j1
     else:
